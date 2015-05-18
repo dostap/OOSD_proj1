@@ -1,4 +1,7 @@
-
+<!--
+ * Written by dostap
+ * Date: 2015/05/18
+-->
 
 <!DOCTYPE html>
 <html>
@@ -14,12 +17,14 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- Favicon -->
+<link href="favicon1.ico" rel="shortcut icon" type="image/x-icon" />
 	</head>
 
-			<div id="titleheader">
-				<h1>Welcome to Travel Experts!&trade;</h1>
-			</div>
-
+				<header><h1><img src="img_logoTravel.png">Travel Experts<sup>&trade;</sup>
+				</h1></header>
+		
+			<nav>
 			<div id="navBar">
 			<ul>
 			<li><a href="index.php" class="button">Home</a></li>
@@ -29,3 +34,4 @@
             <li><a href="contact.php" class="button">Contact</a></li>
             </ul>
 			</div>
+			</nav>

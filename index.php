@@ -1,4 +1,7 @@
-
+<!--
+ * Written by dostap
+ * Date: 2015/05/18
+-->
 	
 	<?php
 	$header_title = "Welcome to Travel Experts";
@@ -11,8 +14,55 @@
 
 	<body>
 
-		<div id="wrapper">
+	<div id="wrapper1">
+	<section>
+	<h3>Let's find YOUR perfect vacation!</h3>
+	<img src="beach.jpg" /><br / >
+			<form id="list" method="get" action="chooseLocation.php">
 
+				<label for="location">Where would you lie to go?</label>
+				<select name="location" id="id_destination">
+				<option value="" disabled selected>Choose by Destination</option>
+				<option value="1">Caribbean</option>
+				<option value="2">Polynesia</option>
+				<option value="3">Asia</option>
+				<option value="4">Europe</option>
+				</select><br / >
+
+				<label for="date">When would you like to travel?</label>
+				<select name="travelMonth" id="id_month">
+				<option value="" disabled selected>Choose by Month</option>
+				<option value="1">May</option>
+				<option value="2">November</option>
+				<option value="3">December</option>
+		
+				</select><br / >
+
+				<label for="vacationType">What type of vacation would you prefer?</label>
+				<select name="vacationType" id="id_type">
+				<option value="" disabled selected>Choose by Type</option>
+				<option value="1">Cruise</option>
+				<option value="2">All inclusive resort</option>
+				<option value="3">Eco tour</option>
+				<option value="4">Rail tour</option>
+				</select><br / >
+
+				<label for="vacationType">What is your vacation budget?</label>
+				<select name="vacationBudget" id="id_budget">
+				<option value="" disabled selected>Choose by Price Range</option>
+				<option value="1">2000-3000</option>
+				<option value="2">3000-4000</option>
+				<option value="3">4000-5000</option>
+
+				</select>		
+	
+			</form>
+	</section>
+	</div>
+		<!-- Wrapper for the carousel-->
+		
+		<div id="wrapper2">
+		<aside>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 	
  		 		<!-- Indicators -->
@@ -21,51 +71,60 @@
 				    <li data-target="#myCarousel" data-slide-to="1"></li>
 				    <li data-target="#myCarousel" data-slide-to="2"></li>
 				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				    <li data-target="#myCarousel" data-slide-to="4"></li>    
   				</ol>
 
   
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-					    <img src="img_pack_asia.gif" alt="Asia">
+					    <img src="Italy.jpg" alt="Italy">
 					       <div class="carousel-caption">
-      					 		<h3>Asian Expedition</h3>
-					        	<p>Airfare, Hotel & Eco Tour</p>
-					        	<p><a class="carButton" href="packages.php" role="carButton">Sign up today</a></p>
+      					 		<h3>Italy Awaits!</h3>
+					        	<p><span style="font-size: 2.5em"> Limited Time Offer</span></p>
+					        	<p><a class="carButton" href="contact.php" role="carButton">Contact Us for Details</a></p>
 					      </div> <!--close carousel-caption class div-->
 					</div><!--close item class div-->
 
 					<div class="item">
-					    <img src="img_pack_caribbean.gif" alt="Caribbean">
+					    <img src="cabin.jpg" alt="Cabin in the Rockies">
 					    	<div class="carousel-caption">
-      							<h3>Caribbean New Year</h3>
-					     	   <p>Cruise the Caribbean!</p>
-					     	   <p><a class="carButton" href="packages.php" role="carButton">Sign up today</a></p>
+      							<h3>Your Weekend Getaway</h3>
+					     	   <p><span style="font-size: 2.5em">4th Night FREE</span></p>
+					     	   <p><a class="carButton" href="contact.php" role="carButton">Contact Us for Details</a></p>
 					     	</div><!--close carousel-caption class div-->
 					</div><!--close item class div-->
 
 					<div class="item">
-					    <img src="img_pack_polynesian.gif" alt="Polynesian">
+					    <img src="japan.jpg" alt="Japan">
 					     	<div class="carousel-caption">
-      					 		<h3>Polynesian Paradise</h3>
-					     	   <p>8 Days in Hawaii</p>
-					     	   <p><a class="carButton" href="packages.php" role="carButton">Sign up today</a></p>
+      					 		<h3>Culinary Adventure in Japan</h3>
+					     	   <p><span style="font-size: 2.5em">Coming SOON</span></p>
+					     	   <p><a class="carButton" href="contact.php" role="carButton">Contact Us for Details</a></p>
 					     	</div><!--close carousel-caption class div-->
 					</div><!--close item class div-->
 
 					<div class="item">
-						<img src="img_pack_european.gif" alt="European">
+						<img src="train.jpg" alt="Rail tour">
 					    	<div class="carousel-caption">
-      							<h3>European Vacation</h3>
-					        	<p>Tour with Rail Pass</p>
-					        	<p><a class="carButton" href="packages.php" role="carButton">Sign up today</a></p>
+      							<h3>Canadian Railway Tour</h3>
+					        	<p><span style="font-size: 2.5em">Save 15% by booking TODAY</span></p>
+					        	<p><a class="carButton" href="contact.php" role="carButton">Contact Us for Details</a></p>
+								</div><!--close carousel-caption class div-->
+					</div><!--close item class div-->
+
+					<div class="item">
+						<img src="kenya.jpg" alt="Kenya">
+					    	<div class="carousel-caption">
+      							<h3>Kenya and Tanzania Safari</h3>
+					        	<p><span style="font-size: 2.5em">The Ultimate Safari Tour</span></p>
+					        	<p><a class="carButton" href="contact.php" role="carButton">Contact Us for Details</a></p>
 								</div><!--close carousel-caption class div-->
 					</div><!--close item class div-->
 
    				</div> <!-- div for carousel-inner -->
 
-			</div><!-- div for myCarousel -->
-
 			 <!-- Left and right controls -->
+		
 			  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			    <span class="sr-only">Previous</span>
@@ -74,8 +133,10 @@
 			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			    <span class="sr-only">Next</span>
 			  </a>
-		</div> <!--close wrapper div-->
-		 
+			</div><!-- div for myCarousel -->
+		</aside> 		
+		</div> <!--close wrapper2 div-->
+	
 		
 		<?php
 		include "footer.php";
