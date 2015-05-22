@@ -8,7 +8,7 @@
 	<head>
 
 <title><?php echo($header_title);?></title>
-		<link href="style.css" type="text/css" rel="stylesheet">
+		<link href="indexstyle.css" type="text/css" rel="stylesheet">
 		<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -24,8 +24,7 @@
 
 	</head>
 
-				<header><h1><img src="img_logoTravel.png">Travel Experts<sup>&trade;</sup>
-				</h1></header>
+				<header><img src="img/mainLogo.png"></header>
 		
 			<nav>
 			<div id="navBar">

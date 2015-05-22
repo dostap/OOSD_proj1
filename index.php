@@ -8,7 +8,7 @@
 	?>
 
 	<?php
-	include "header.php";
+	include "indexheader.php";
 	?>
 
 
@@ -42,7 +42,7 @@
 	<div id="wrapper1">
 	<section>
 	<h3>Let's find YOUR perfect vacation!</h3>
-	<img src="beach.jpg" /><br / >
+	<img src="img/beach.jpg" /><br / >
 			<form id="list" method="get" action="">
 
 				<label for="location">Where would you lie to go?</label>
@@ -108,7 +108,7 @@
   
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-					    <img src="Italy.jpg" alt="Italy">
+					    <img src="img/Italy.jpg" alt="Italy">
 					       <div class="carousel-caption">
       					 		<h3>Italy Awaits!</h3>
 					        	<p><span style="font-size: 2.5em"> Limited Time Offer</span></p>
@@ -117,7 +117,7 @@
 					</div><!--close item class div-->
 
 					<div class="item">
-					    <img src="cabin.jpg" alt="Cabin in the Rockies">
+					    <img src="img/cabin.jpg" alt="Cabin in the Rockies">
 					    	<div class="carousel-caption">
       							<h3>Your Weekend Getaway</h3>
 					     	   <p><span style="font-size: 2.5em">4th Night FREE</span></p>
@@ -126,7 +126,7 @@
 					</div><!--close item class div-->
 
 					<div class="item">
-					    <img src="japan.jpg" alt="Japan">
+					    <img src="img/japan.jpg" alt="Japan">
 					     	<div class="carousel-caption">
       					 		<h3>Culinary Adventure in Japan</h3>
 					     	   <p><span style="font-size: 2.5em">Coming SOON</span></p>
@@ -135,7 +135,7 @@
 					</div><!--close item class div-->
 
 					<div class="item">
-						<img src="train.jpg" alt="Rail tour">
+						<img src="img/train.jpg" alt="Rail tour">
 					    	<div class="carousel-caption">
       							<h3>Canadian Railway Tour</h3>
 					        	<p><span style="font-size: 2.5em">Save 15% by booking TODAY</span></p>
@@ -144,7 +144,7 @@
 					</div><!--close item class div-->
 
 					<div class="item">
-						<img src="kenya.jpg" alt="Kenya">
+						<img src="img/kenya.jpg" alt="Kenya">
 					    	<div class="carousel-caption">
       							<h3>Kenya and Tanzania Safari</h3>
 					        	<p><span style="font-size: 2.5em">The Ultimate Safari Tour</span></p>
@@ -170,7 +170,7 @@
 	
 		
 		<?php
-		include "footer.php";
+		include "indexfooter.php";
 		?>
 
 	</body>
